@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html><div class="container">
+    <div class="logo-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1024px-Wikipedia-logo-v2.svg.png" alt="Wikipedia Logo" class="logo">
+    </div>
+    <div class="language-container">
+        <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Español</a></li>
+            <li><a href="#">Français</a></li>
+            <li><a href="#">Deutsch</a></li>
+            <li><a href="#">Italiano</a></li>
+            <li><a href="#">Português</a></li>
+            <li><a href="#">Nederlands</a></li>
+            <li><a href="#">Русский</a></li>
+            <li><a href="#">中文</a></li>
+            <li><a href="#">日本語</a></li>
+            <li><a href="#">한국어</a></li>
+        </ul>
+    </div>
+    <div class="search-container">
+        <form>
+            <input type="search" placeholder="Buscar en Wikipedia">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .container {
+        text-align: center;
+    }
+    .logo-container {
+        margin: 50px auto;
+    }
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
+    .language-container ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .language-container li {
+        margin: 10px;
+    }
+    .language-container a {
+        text-decoration: none;
+        color: #337ab7;
+    }
+    .search-container {
+        margin: 50px auto;
+    }
+    .search-container form {
+        display: flex;
+        justify-content: center;
+    }
+    .search-container input[type="search"] {
+        width: 50%;
+        height: 30px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+    }
+    .search-container button[type="submit"] {
+        width: 100px;
+        height: 30px;
+        background-color: #337ab7;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+</style>
